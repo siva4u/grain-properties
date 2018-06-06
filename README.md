@@ -14,8 +14,8 @@ Tortuosity_Porosity.py does the following things:
     
     6) Cleans up the unwanted files.
     
-The python is in itself documented, if one reads the python script one can understand the logic used.
-The same cross sectioning can be used to estimate S-Ray tomography data also. 
+The python script is in itself well documented, if one reads the python script one can understand the logic used.
+The same cross sectioning can be used to estimate tortuosity from X-Ray tomography data also. 
 
 This software uses Tortuosity estimator developed by Professor Nakashima Yoshito Home Page: <https://staff.aist.go.jp/nakashima.yoshito/index-e.htm>. Link to the Program download <https://staff.aist.go.jp/nakashima.yoshito/progeng.htm>. Tortuosity estimator uses random walk method to estimate effective diffusivity from which tortuosity is estinated. The citation for the original paper is followed.
 1) Nakashima, Y. and Kamiya, S. (2007) Mathematica Programs for the Analysis of Three-Dimensional Pore Connectivity and Anisotropic Tortuosity of Porous Rocks using X-ray Computed Tomography Image Data. Journal of Nuclear Science and Technology, 44, 1233-1247. 
