@@ -1,12 +1,19 @@
 # grain-properties
 This Software estimates granular properties such as tortuosity, porosity and co-ordination number from granular particles position data from discrete element method softwares or tomography data.
 Tortuosity_Porosity.py does the following things:
-    creates cross sectional jpeg files from the positional data of particles.
-    tiff files are created from the above jpeg files and trimmed to the required dimension.
-    porosity of each tiff file is calculated by calculating the number of dark pixels and the total number of pixels.
-    Call Perl and R scripts for estimating tortuosity using programs developed by Professor Nakashima.
-    Renames the result files
-    Cleans up the unwanted files.
+
+    1) creates cross sectional jpeg files from the positional data of particles.
+    
+    2) tiff files are created from the above jpeg files and trimmed to the required dimension.
+    
+    3) porosity of each tiff file is calculated by calculating the number of dark pixels and the total number of pixels.
+    
+    4) Call Perl and R scripts for estimating tortuosity using programs developed by Professor Nakashima.
+    
+    5) Renames the result files.
+    
+    6) Cleans up the unwanted files.
+    
 The python is in itself documented, if one reads the python script one can understand the logic used.
 The same cross sectioning can be used to estimate S-Ray tomography data also. 
 
